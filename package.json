@@ -4,7 +4,8 @@
   "description": "a chat space for texting",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js",
+    "dev": "nodemon node app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,12 @@
   "bugs": {
     "url": "https://github.com/mike-mbugua/chatspace2/issues"
   },
-  "homepage": "https://github.com/mike-mbugua/chatspace2#readme"
+  "homepage": "https://github.com/mike-mbugua/chatspace2#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  }
 }
