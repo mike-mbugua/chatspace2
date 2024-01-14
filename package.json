@@ -1,0 +1,19 @@
+{
+  "name": "chatspace",
+  "version": "1.0.0",
+  "description": "a chat space for texting",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mike-mbugua/chatspace2.git"
+  },
+  "author": "mike",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mike-mbugua/chatspace2/issues"
+  },
+  "homepage": "https://github.com/mike-mbugua/chatspace2#readme"
+}
